@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:lucasfigueiralopes@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-gomeslgm%40outlook.com-1f6feb?style=for-the-badge&logo=microsoftoutlook&logoColor=white"></a>
+  <a href="mailto:lucasfigueiralopes@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-lucasfigueiralopes@gmail.com-1f6feb?style=for-the-badge&logo=microsoftoutlook&logoColor=white"></a>
   <a href="https://github.com/LucsL0pes"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-LucsL0pes-24292e?style=for-the-badge&logo=github"></a>
   <a href="https://www.linkedin.com/in/SEU-LINK-AQUI"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Lucas-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
