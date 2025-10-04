@@ -1,28 +1,52 @@
-<h1 align="center">Olá! Eu sou o Lucas 👋</h1>
-
+<!-- Banner animado -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LucsL0pes&show_icons=true&hide=stars&rank_icon=github" />
+  <img src="./assets/banner.svg" width="100%" />
 </p>
 
-### 🚀 Sobre mim
-Dev focado em **TypeScript**, **React/Next.js** e **Node**. Interesso por **DevOps** e automações com IA.
+<h1 align="center">Olá, eu sou o Lucas 👋</h1>
 
-### 🧰 Stack principal
-![TS](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)
-![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb)
-![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff)
-![Node](https://img.shields.io/badge/Node.js-393?logo=node.js&logoColor=fff)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=fff)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
+<p align="center">
+  <!-- Typing effect -->
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=800&center=true&vCenter=true&width=700&lines=TypeScript+%7C+React+%7C+Next.js;Node.js+%7C+APIs+%7C+Prisma;Automação+%26+DevOps+com+IA;Sempre+aprendendo%2C+sempre+entregando" alt="typing" />
+</p>
 
-### 📌 Projetos em destaque
-- **Gymatch Mobile** – React Native + Supabase • _onboarding, upload de prova_  
-- **Task Manager (Stoix)** – Node + Express + Prisma • _CRUD + CSRF_  
-- **Genesis Pizzaria / bank_dev** – _exercícios e APIs_
+<p align="center">
+  <a href="mailto:gomeslgm@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-gomeslgm%40outlook.com-1f6feb?style=for-the-badge&logo=microsoftoutlook&logoColor=white"></a>
+  <a href="https://github.com/LucsL0pes"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-LucsL0pes-24292e?style=for-the-badge&logo=github"></a>
+  <a href="https://www.linkedin.com/in/SEU-LINK-AQUI"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Lucas-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
 
-<!-- AUTOGERADO: não edite manualmente entre estas linhas -->
+<img src="./assets/divider-wave.svg" width="100%" />
+
+### 🚀 Tech Stack (core)
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Node.js-3C873A?logo=node.js&logoColor=fff&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=fff&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=for-the-badge"/>
+</p>
+
+### 🌟 Destaques (auto)
+<!-- AUTOGERADO: não edite entre estas linhas -->
 <!-- TOP-REPOS:START -->
 <!-- TOP-REPOS:END -->
+
+### 🧾 Últimos commits (auto)
 <!-- COMMITS:START -->
 <!-- COMMITS:END -->
+
+### 📈 Métricas rápidas
+<p>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=LucsL0pes&show_icons=true&theme=transparent&rank_icon=github" />
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=LucsL0pes&theme=transparent" />
+</p>
+
+### 🐍 Snake (auto)
+<p>
+  <img src="https://raw.githubusercontent.com/LucsL0pes/LucsL0pes/output/github-contribution-grid-snake.svg" alt="snake"/>
+</p>
+
+> *Dica:* os blocos **Destaques** e **Últimos commits** atualizam sozinhos (via Actions).
