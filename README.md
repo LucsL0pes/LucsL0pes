@@ -1,6 +1,6 @@
 <!-- Banner animado -->
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" />
+  <img src="./assets/banner.png" width="100%" />
 </p>
 
 <h1 align="center">Olá, eu sou o Lucas 👋</h1>
@@ -16,7 +16,7 @@
   <a href="https://www.linkedin.com/in/SEU-LINK-AQUI"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Lucas-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
-<img src="./assets/divider-wave.svg" width="100%" />
+<img src="./assets/divider-wave.png" width="100%" />
 
 ### 🚀 Tech Stack (core)
 <p>

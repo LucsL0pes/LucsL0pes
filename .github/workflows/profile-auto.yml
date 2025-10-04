@@ -1,0 +1,84 @@
+name: Update Profile README
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build sections
+        id: build
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const username = 'LucsL0pes';
+
+            // Top repos por atividade recente
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username, per_page: 100, sort: 'pushed'
+            });
+            const top = repos
+              .filter(r => !r.fork && !r.archived)
+              .slice(0, 6)
+              .map(r => `- **[${r.name}](${r.html_url})** — ${r.description ?? '_sem descrição_'} \`(${r.language ?? 'N/A'})\``)
+              .join('\n');
+
+            // Últimos commits públicos
+            const events = await github.paginate(github.rest.activity.listPublicEventsForUser, {
+              username, per_page: 50
+            });
+            const commits = events
+              .filter(e => e.type === 'PushEvent')
+              .flatMap(e => e.payload.commits.map(c => {
+                const repo = e.repo.name;
+                const msg = c.message.split('\n')[0];
+                const url = `https://github.com/${repo}/commit/${c.sha}`;
+                return `- ${repo}: ${msg} — [commit](${url})`;
+              }))
+              .slice(0, 5)
+              .join('\n') || '- (sem commits públicos recentes)';
+
+            core.setOutput('top', top);
+            core.setOutput('commits', commits);
+
+      - name: Update README in-place
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = 'README.md';
+          const top = process.env.TOP;
+          const commits = process.env.COMMITS;
+          let md = fs.readFileSync(path, 'utf8');
+
+          function inject(start, end, content) {
+            const re = new RegExp(`(${start}[\\s\\S]*?)(${end})`, 'm');
+            return md.replace(re, `$1\n${content}\n$2`);
+          }
+
+          md = inject('<!-- TOP-REPOS:START -->','<!-- TOP-REPOS:END -->', top);
+          md = inject('<!-- COMMITS:START -->','<!-- COMMITS:END -->', commits);
+
+          fs.writeFileSync(path, md);
+          console.log('README atualizado');
+          NODE
+        env:
+          TOP: ${{ steps.build.outputs.top }}
+          COMMITS: ${{ steps.build.outputs.commits }}
+
+      - name: Commit changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore(profile): update README (auto)"
+            git push
+          else
+            echo "Sem mudanças."
+          fi
