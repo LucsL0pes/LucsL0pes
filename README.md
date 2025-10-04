@@ -32,10 +32,23 @@
 ### 🌟 Destaques (auto)
 <!-- AUTOGERADO: não edite entre estas linhas -->
 <!-- TOP-REPOS:START -->
+
+- **[LucsL0pes](https://github.com/LucsL0pes/LucsL0pes)** — _sem descrição_ `(N/A)`
+- **[mini-gymatch](https://github.com/LucsL0pes/mini-gymatch)** — _sem descrição_ `(TypeScript)`
+- **[t1-sma-2025-2](https://github.com/LucsL0pes/t1-sma-2025-2)** — _sem descrição_ `(N/A)`
+- **[SMA-02-2025](https://github.com/LucsL0pes/SMA-02-2025)** — _sem descrição_ `(Python)`
+- **[aws-manager](https://github.com/LucsL0pes/aws-manager)** — _sem descrição_ `(Python)`
+- **[teste-cicada](https://github.com/LucsL0pes/teste-cicada)** — _sem descrição_ `(EJS)`
 <!-- TOP-REPOS:END -->
 
 ### 🧾 Últimos commits (auto)
 <!-- COMMITS:START -->
+
+- LucsL0pes/mini-gymatch: Update README.md — [commit](https://github.com/LucsL0pes/mini-gymatch/commit/020d33411dd5654a6d2bd64ce637a08b4ea677ab)
+- LucsL0pes/mini-gymatch: Update README.md — [commit](https://github.com/LucsL0pes/mini-gymatch/commit/b1b4db808cdde85b725664321f0d7bd9ed981b7b)
+- LucsL0pes/mini-gymatch: finalizado testes finais — [commit](https://github.com/LucsL0pes/mini-gymatch/commit/1d4ce81ebc95f97392be00e1f2e7d565c8eaced3)
+- LucsL0pes/mini-gymatch: Align proof status with database constraint — [commit](https://github.com/LucsL0pes/mini-gymatch/commit/4600dc6386abf421637364ef4766bb09c6b026c6)
+- LucsL0pes/mini-gymatch: Merge branch 'main' into codex/fix-token-recognition-error-on-screens-s7q90v — [commit](https://github.com/LucsL0pes/mini-gymatch/commit/70ac368cb013fcf49e4362a1941abd05e58e7c2a)
 <!-- COMMITS:END -->
 
 ### 📈 Métricas rápidas
