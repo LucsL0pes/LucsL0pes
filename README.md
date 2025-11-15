@@ -354,6 +354,13 @@
 - **[t1-sma-2025-2](https://github.com/LucsL0pes/t1-sma-2025-2)** — _sem descrição_ `(N/A)`
 - **[SMA-02-2025](https://github.com/LucsL0pes/SMA-02-2025)** — _sem descrição_ `(Python)`
 - **[aws-manager](https://github.com/LucsL0pes/aws-manager)** — _sem descrição_ `(Python)`
+
+- **[LucsL0pes](https://github.com/LucsL0pes/LucsL0pes)** — _sem descrição_ `(N/A)`
+- **[stoix-desafio-pratico](https://github.com/LucsL0pes/stoix-desafio-pratico)** — _sem descrição_ `(TypeScript)`
+- **[mini-gymatch](https://github.com/LucsL0pes/mini-gymatch)** — _sem descrição_ `(TypeScript)`
+- **[t1-sma-2025-2](https://github.com/LucsL0pes/t1-sma-2025-2)** — _sem descrição_ `(N/A)`
+- **[SMA-02-2025](https://github.com/LucsL0pes/SMA-02-2025)** — _sem descrição_ `(Python)`
+- **[aws-manager](https://github.com/LucsL0pes/aws-manager)** — _sem descrição_ `(Python)`
 <!-- TOP-REPOS:END -->
 
 ### 🧾 Últimos commits (auto)
@@ -496,6 +503,8 @@
 - LucsL0pes/LucsL0pes: Update README.md — [commit](https://github.com/LucsL0pes/LucsL0pes/commit/80cc0a52856bc1bf43b7219967e552706a622b4c)
 - LucsL0pes/LucsL0pes: Update README.md — [commit](https://github.com/LucsL0pes/LucsL0pes/commit/6939269a6b4cfcdac4c78674a8ed619ad99ee029)
 - LucsL0pes/LucsL0pes: finalizado config de banner — [commit](https://github.com/LucsL0pes/LucsL0pes/commit/eaa948c5b62e663286cd54b200153b6b0c8d7089)
+
+- (sem commits públicos recentes)
 
 - (sem commits públicos recentes)
 
